@@ -1,0 +1,405 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+header{
+    
+    height:122px;
+    background-color:#daac00 ;
+    color:white;
+}
+.hambargar{
+    visibility: hidden;
+}
+.container{
+    padding:0 10%;
+}
+nav{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 122px;
+}
+.navul{
+    display:flex;
+    gap: 40px;
+}
+.nav-item{
+    font-size: 30px;
+    font-family: poppins medium;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+}
+.search input{
+    height: 50px;
+    background-color: #fcc302;
+    border: none;
+    padding: 20px;
+    outline: none;
+}
+.search{
+    background-color: #00bec9;
+    display: flex;
+    align-items: center;
+}
+.search img{
+    padding:0px 10px;
+}
+.searchbutton{
+    background-color: #00bec9;
+    border: none;
+}
+.blackdog-section{
+    height: 780px;
+    background-color: #fcc302;
+    color: white;
+}
+.blackdogdiv{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    height: 780px;
+}
+.firstwanted{
+    width:55%;
+    
+}
+.bigdog{
+    width:45%;
+}
+.firstwanted h1{
+    font-family: poppins SemiBold;
+    font-size: 66px;
+}
+.firstwanted p{
+    font-size: 30px;
+    font-family: poppins regular;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.contactus{
+    padding:15px 30px;
+    background-color: #00bec9;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    margin-right: 20px;
+}
+.ourservice{
+    padding:15px 30px;
+    border: 2px solid white;
+    text-decoration: none;
+    color: white;
+    border-radius: 10px;
+    display: inline-block;
+    
+}
+.bigdog img{
+    width:80%;
+
+}
+.vateri-div{
+    height: 790px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.vateri1{
+    width:48%;
+}
+
+.vateri1 h2{
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.vateri1 p{
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+.vateri1 a{
+    text-decoration: none;
+    color:white;
+    background-color: #fcc302;
+    padding:15px 30px;
+    display: inline-block;
+    border-radius: 10px;
+
+}
+.vateri21{
+    background-image: url('../images/dogdoctor.png');
+    height:500px;
+    width: 100%!important;;
+    background-color: #fcc302;
+    background-blend-mode:darken;
+    background-repeat: no-repeat;
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+}
+.vateri2{
+    padding: 10%  0px;
+    width: 48%;
+    height:790px;
+    
+}
+.shape{
+    z-index: 0;
+    right:40px;
+    bottom: 160px;
+    position: relative;
+
+}
+.titlehere-sec{
+    background-color: #fcc302;
+    color: white;
+}
+.titlehere-div{
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+padding: 10% 0px;
+}
+.title1{
+    text-align: center;
+    width:100%;
+    padding:0px 20%;
+}
+.title1 p{
+    font-size: 33px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.title1 h2{
+    font-size: 75px;
+}
+.title2{
+    width: 30%;
+    text-align: center;
+    
+}
+.titleimage1{
+    width:100%;
+    
+}
+.title2 img{
+    width:100%;
+}
+.title2 h2{
+    margin-top: 20px;
+}
+
+.vateri2-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 10% 0px;
+    height: 800px;
+    align-items: center;
+}
+.vateri2-1{
+    width:48%;
+}
+.vateri2-1-1{
+    width: 100%;
+    background-image: url('../images/dogdoctor.png');
+    background-color: #fcc302;
+    background-blend-mode: darken;
+    height: 480px;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+.shape2{
+    display: none;
+    position: relative;
+    left:530px;
+    bottom: 160px;
+    z-index: 0;
+}
+.vateri2-2{
+    width:48%;
+    text-align: right;
+}
+.vateri2-2 h2{
+    font-size: 50px;
+    margin-bottom: 20px;
+
+}
+
+.vateri2-2 a{
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #fcc302;
+    color: white;
+    display: inline-block;
+    margin-top: 20px;
+}
+.buynow{
+    background-color: #00bec9;
+    text-decoration: none;
+    color: white;
+    padding:5px 30px;
+    display: inline-block;
+    margin-top: 10px;
+    border-radius: 20px;
+}
+.vetcarediv{
+    padding:10% 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.vetcare1{
+    width:100%;
+    text-align: center;
+    padding:0px 20%;
+}
+.vetcare1 h2{
+    font-size: 75px;
+}
+.vetcare1 p{
+    font-size: 33px;
+}
+.vetcare2{
+    width:30%;
+    text-align: center;
+    margin-top: 20px;
+}
+.vetcare2 img{
+    width: 100%;
+}
+.icon{
+    padding:10px 10px;
+    background-color: #fcc302;
+    border-radius: 100%;
+}
+.vetcare2 p{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.heart-div{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10% 0px;
+    
+}
+.heart-section{
+    
+    color: white;
+    background-color: #f2c321;
+    background-image: url('../images/backgrounddog.png');
+    background-blend-mode:darken;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.heart1{
+    width:33%;
+    text-align: center;
+}
+.heart1 p{
+    font-size: 41px;
+}
+.recentpost-div{
+    padding:10% 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.recent1{
+    width:100%;
+    text-align: center;
+    padding:0px 20%;
+}
+.recent1 h2{
+    font-size: 75px;
+}
+.recent1 p{
+    font-size: 33px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.recent2{
+    width:31%;
+    
+
+}
+.recent11 img{
+    width:100%;
+}
+.recent12{
+    padding:20px;
+    border-right: 1px solid grey;
+    border-left: 1px solid grey;
+    border-bottom: 1px solid grey;
+}
+.recent12 h3{
+    font-size: 25px;
+}
+.recent12 h2{
+    color: #00bec9;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.recent12 p{
+    margin-bottom: 20px;
+}
+.recent12 a{
+    color: #00bec9;
+    font-size: 21px;
+    text-decoration: none;
+    font-weight: 700;
+}
+footer{
+    background-color: black;
+}
+.footer-div{
+    padding:10% 0px;
+    color:white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.footer1{
+    width:28%;
+}
+.footer1 p{
+    margin-top: 10px;
+}
+.footer2{
+    width:28%;
+}
+.footer2 p{
+    margin-top: 10px;
+}
+.footer3{
+    width: 38%;
+    display: flex;
+    justify-content: flex-start;
+    text-align: right;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.footer3 p{
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+.iconcontainer{
+width:100%;
+text-align: right;
+margin-top: 20px;
+}
+
+
+
